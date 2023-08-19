@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 90px 0px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.sideNavbar {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sideNavbar a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.home {
+    width: 100%;
+    height: 660px;
+    background-image: url(../rachel-coyne-U7HLzMO4SIY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+.homeLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(222, 33, 39, 0.6);
+    position: absolute;
+}
+
+.homeContent {
+
+    height: 100%;
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homeContent h2 {
+    font-size: 60px;
+}
+
+
+.openNav {
+    position: relative;
+    left: 10px;
+    top: 50%;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.slider {
+    margin: 100px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.toggle {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white
+}
+
+.sliderContent {
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+    /* transition: 3s; */
+}
+
+.first {
+    display: block;
+}
+
+.timer {
+    background-image: url(../ian-schneider-TamMbr4okv4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+.timerLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+}
+
+.timerContent {
+    background-color: #1111114b;
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.contact .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.info h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+
+.social {
+    margin-top: 60px;
+    color: #777;
+}
+
+.social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+.contactForm input {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+.contactForm textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+    height: 200px;
+    resize: vertical;
+}
+
+.contactForm button {
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+}
+.contactForm button:hover{
+    border: 1px solid;
+}
+
+.counter {
+    font-size: 20px;
+    color: #D62E33;
+}
